@@ -1,0 +1,63 @@
+.footer {
+  &-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 35px 0;
+    border-bottom: 1.5px solid rgba(105, 118, 135, 0.1);
+
+    &__logo {
+      cursor: pointer;
+    }
+
+    &__nav {
+      display: flex;
+      align-items: center;
+      gap: 40px;
+
+      & > div {
+        font-size: 16px;
+        color: #002248;
+        font-weight: 500;
+        cursor: pointer;
+
+        &:hover {
+          color: #3685fb;
+        }
+
+        &:active {
+          color: #3685fb;
+        }
+      }
+    }
+
+    &__social {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+
+      & > div {
+        cursor: pointer;
+
+        &:hover > svg path {
+          stroke: #3685fb;
+          fill: #3685fb;
+        }
+
+        &:hover > svg rect {
+          stroke: #3685fb;
+        }
+      }
+    }
+  }
+  &-bottom {
+    padding-top: 30px;
+    padding-bottom: 40px;
+
+    & p {
+      text-align: center;
+      font-size: 14px;
+      color: #697687;
+    }
+  }
+}
