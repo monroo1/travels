@@ -43,8 +43,8 @@ const StepsJourney = () => {
           <div className="steps-journey__bottom-card__content">
             <h3>Мы дадим вам рекомендации</h3>
             <p className="grey-p">
-              Once you’re happy with your final plan, We handle everything for
-              you
+              Как только вы будете довольны своим окончательным планом, мы все
+              сделаем за вас
             </p>
           </div>
         </div>

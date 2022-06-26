@@ -11,3 +11,10 @@
     gap: 10px;
   }
 }
+
+@media screen and (max-width: 780px) {
+  .travel-guideline {
+    background-position: bottom;
+    padding: 50px 24px;
+  }
+}

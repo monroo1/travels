@@ -1,11 +1,14 @@
 import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Scrollbar, A11y } from "swiper";
+import useWindowDimensions from "../../hooks/useWindowDimensions.js";
 import "./Location.scss";
 import "swiper/scss";
 import "swiper/scss/navigation";
 
 const Location = () => {
+  const { height, width } = useWindowDimensions();
+
   return (
     <div className="location">
       <div className="wrapper">
@@ -20,8 +23,8 @@ const Location = () => {
         </div>
         <Swiper
           modules={[Navigation, Scrollbar, A11y]}
-          spaceBetween={30}
-          slidesPerView={3}
+          spaceBetween={100}
+          slidesPerView={width > 700 ? 3 : 1}
           navigation
         >
           <SwiperSlide>

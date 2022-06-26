@@ -43,3 +43,19 @@
     }
   }
 }
+
+@media screen and (max-width: 1180px) {
+  .about {
+    padding: 60px 24px;
+  }
+}
+
+@media screen and (max-width: 1020px) {
+  .about {
+    padding-top: 0;
+    flex-direction: column;
+  }
+  .about-right img {
+    max-width: 320px;
+  }
+}

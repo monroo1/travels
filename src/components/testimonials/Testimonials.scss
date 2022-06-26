@@ -42,3 +42,24 @@
     }
   }
 }
+
+@media screen and (max-width: 1180px) {
+  .testimonials {
+    & > div {
+      padding: 60px 24px 30px 24px;
+    }
+  }
+}
+
+@media screen and (max-width: 780px) {
+  .testimonials {
+    padding-top: 40px;
+    & > div {
+      padding: 30px 24px 0 24px;
+      gap: 40px;
+    }
+  }
+  .testimonials-bottom {
+    padding: 20px;
+  }
+}

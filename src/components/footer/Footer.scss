@@ -61,3 +61,26 @@
     }
   }
 }
+
+@media screen and (max-width: 1180px) {
+  .footer {
+    padding: 0 24px;
+  }
+
+  .footer-top {
+    padding: 15px 0;
+    flex-direction: column;
+    align-items: flex-start;
+
+    &__nav {
+      gap: 10px;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      margin-bottom: 15px;
+    }
+  }
+
+  .footer-bottom {
+    padding: 15px 0;
+  }
+}

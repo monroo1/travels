@@ -20,3 +20,20 @@
 .contacts {
   padding: 50px 0;
 }
+
+@media screen and (max-width: 1180px) {
+  .contacts {
+    padding: 24px;
+  }
+}
+
+@media screen and (max-width: 780px) {
+  .contacts-card {
+    background-image: none !important;
+    padding: 40px;
+
+    &__content {
+      max-width: 100%;
+    }
+  }
+}

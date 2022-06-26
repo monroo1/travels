@@ -13,3 +13,11 @@
     max-width: 100%;
   }
 }
+
+@media screen and (max-width: 1180px) {
+  .location {
+    & > div {
+      padding: 80px 24px;
+    }
+  }
+}
