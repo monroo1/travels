@@ -1,0 +1,15 @@
+.location {
+  background-color: #f8f8f8;
+  & > div {
+    padding: 120px 0;
+  }
+
+  &-content {
+    margin-bottom: 40px;
+    max-width: 540px;
+  }
+
+  & img {
+    max-width: 100%;
+  }
+}

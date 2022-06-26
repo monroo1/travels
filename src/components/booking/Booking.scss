@@ -1,0 +1,35 @@
+.booking {
+  background-color: #f8f8f8;
+
+  & > div {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    padding: 35px 0;
+  }
+
+  &-left {
+    padding-right: 39px;
+
+    & > img {
+      max-width: 569px;
+    }
+  }
+
+  &-right {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+    padding-left: 39px;
+    margin-top: 100px;
+
+    & > h1 {
+      color: #002248;
+      font-size: 40px;
+      line-height: 48px;
+      font-family: Arial, Helvetica, sans-serif;
+      margin-bottom: 10px;
+    }
+  }
+}
