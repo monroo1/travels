@@ -1,0 +1,20 @@
+.gallery {
+  padding: 120px 0;
+  &-images {
+    overflow: hidden;
+  }
+  & img {
+    min-height: 350px;
+  }
+
+  &-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 70px;
+
+    &__left h2 {
+      margin-top: 10px;
+    }
+  }
+}

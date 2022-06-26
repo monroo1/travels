@@ -1,0 +1,22 @@
+.contacts-card {
+  background-color: #f3f8ff;
+  border-radius: 40px;
+  padding: 70px 80px;
+  max-width: 1000px;
+  margin: 0 auto;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: 90% 0%;
+
+  &__content {
+    max-width: 50%;
+
+    & h2 {
+      margin-bottom: 35px;
+    }
+  }
+}
+
+.contacts {
+  padding: 50px 0;
+}
