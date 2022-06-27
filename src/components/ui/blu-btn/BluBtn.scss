@@ -1,4 +1,4 @@
-button {
+.blue-btn > a {
   padding: 20px 47px;
   background: #3685fb;
   border-radius: 10px;
@@ -11,9 +11,10 @@ button {
   font-weight: 500;
   font-family: Arial, Helvetica, sans-serif;
   letter-spacing: 1px;
+  text-decoration: none;
 }
 
-button:hover,
-button:active {
+.blue-btn > a:hover,
+.blue-btn > a:active {
   background: #76adff;
 }

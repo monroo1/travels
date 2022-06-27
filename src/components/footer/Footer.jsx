@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./Footer.scss";
 
 const Footer = () => {
@@ -9,11 +10,11 @@ const Footer = () => {
           <img src={`${process.env.PUBLIC_URL}/assets/Logo.svg`} alt="logo" />
         </div>
         <div className="footer-top__nav">
-          <div>Главная</div>
-          <div>О нас</div>
-          <div>Пакеты</div>
-          <div>Контакты</div>
-          <div>FAQ</div>
+          <Link to="/">Главная</Link>
+          <Link to="/about">О нас</Link>
+          <Link to="/packages">Пакеты</Link>
+          <Link to="/contacts">Контакты</Link>
+          <Link to="/faq">FAQ</Link>
         </div>
         <div className="footer-top__social">
           <div>

@@ -16,7 +16,7 @@ const ContactsCard = () => {
         <div className="contacts-card__content">
           <span className="green-span">Cвязаться с нами</span>
           <h2 className="black-h2">У вас eсть какие-нибудь вопросы?</h2>
-          <BlueBtn props={"Контакты"} />
+          <BlueBtn props={"Контакты"} link={"/contacts"} />
         </div>
       </div>
     </div>
